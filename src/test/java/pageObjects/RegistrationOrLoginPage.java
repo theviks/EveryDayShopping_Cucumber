@@ -6,12 +6,17 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
-public class AccountRegistrationPage extends BasePage {
+public class RegistrationOrLoginPage extends BasePage {
 
-	public AccountRegistrationPage(WebDriver driver) {
+	public RegistrationOrLoginPage(WebDriver driver) {
 		super(driver);
 	}
 	//Elements 
+	//Login
+	@FindBy(xpath="//input[@data-qa='login-email']") WebElement loginEmail;
+	@FindBy(xpath="//input[@placeholder='Password']") WebElement loginPassword;
+	@FindBy(xpath="//button[normalize-space()='Login']") WebElement loginBtn;
+
 	@FindBy(xpath="//input[@placeholder='Name']") WebElement name;
 	@FindBy(xpath="//input[@data-qa='signup-email']") WebElement email;
 	@FindBy(xpath="//button[normalize-space()='Signup']") WebElement signUp;
@@ -32,7 +37,11 @@ public class AccountRegistrationPage extends BasePage {
 	@FindBy(xpath="//button[normalize-space()='Create Account']") WebElement registrationBtn;
 	//Verification
 	@FindBy(xpath="//b[normalize-space()='Account Created!']") WebElement success;
-
+	@FindBy(xpath="//a[normalize-space()='Continue']") WebElement continueBtn;
+	@FindBy(xpath="//div[contains(@class,'shop-menu')]//ul/li//b") WebElement vfName;
+	@FindBy(xpath="//a[normalize-space()='Delete Account']") WebElement deleteBtn;
+	@FindBy(xpath="//b[normalize-space()='Account Deleted!']") WebElement deleteMessage;
+  
 	//ActionMethods
 	public void enterName(String Name) {
 		name.sendKeys(Name);
@@ -93,5 +102,27 @@ public class AccountRegistrationPage extends BasePage {
 		return success.isDisplayed();
 	}
 	
+	public void clickCtnu() {
+		continueBtn.click();
+	}
 	
+	public String verifyLogin() {
+		 return vfName.getText();
+	}
+	
+	public void deleteAccountClick() {
+		deleteBtn.click();
+	}
+	public boolean vfDeleteMessage() {
+		return deleteMessage.isDisplayed();
+	}
+	
+	public void login(String email,String pass) {
+		loginEmail.sendKeys(email);
+		loginPassword.sendKeys(pass);
+	}
+	
+	public void clickLogin() {
+		loginBtn.click();
+	}
 }

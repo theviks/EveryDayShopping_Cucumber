@@ -1,0 +1,88 @@
+2025-10-26 19:13:30 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 19:13:32 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 19:13:33 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 19:13:33 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 19:13:39 [main] INFO  factory.BaseClass - Scenario PASSED: Successful account Registration
+2025-10-26 19:13:39 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 19:13:39 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 19:40:56 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 19:40:59 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 19:41:00 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 19:41:01 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 19:41:10 [main] INFO  factory.BaseClass - Scenario PASSED: Successful account Registration
+2025-10-26 19:41:10 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 19:41:10 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 19:53:12 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 19:53:15 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 19:53:16 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 19:53:16 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 19:53:20 [main] INFO  factory.BaseClass - Scenario PASSED: Successful account registration and deletion
+2025-10-26 19:53:20 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 19:53:20 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 19:54:56 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 19:54:58 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 19:55:00 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 19:55:00 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 19:55:00 [main] INFO  factory.BaseClass - Navigating to Register Account Page
+2025-10-26 19:55:01 [main] INFO  factory.BaseClass - Entering Name and Email
+2025-10-26 19:55:02 [main] INFO  factory.BaseClass - Clicking on SignUp Button
+2025-10-26 19:55:03 [main] INFO  factory.BaseClass - Filling account creation form
+2025-10-26 19:55:06 [main] INFO  factory.BaseClass - Verifying account creation success message
+2025-10-26 19:55:08 [main] INFO  factory.BaseClass - Deleting the account
+2025-10-26 19:55:09 [main] INFO  factory.BaseClass - Verifying account deletion success message
+2025-10-26 19:55:09 [main] INFO  factory.BaseClass - Scenario PASSED: Successful account registration and deletion
+2025-10-26 19:55:09 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 19:55:10 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 19:59:54 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 19:59:57 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 19:59:58 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 19:59:59 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 19:59:59 [main] INFO  factory.BaseClass - Navigating to Register Account Page
+2025-10-26 20:00:00 [main] INFO  factory.BaseClass - Entering Name and Email
+2025-10-26 20:00:01 [main] INFO  factory.BaseClass - Clicking on SignUp Button
+2025-10-26 20:00:02 [main] INFO  factory.BaseClass - Filling account creation form
+2025-10-26 20:00:05 [main] INFO  factory.BaseClass - Verifying account creation success message
+2025-10-26 20:00:07 [main] INFO  factory.BaseClass - Deleting the account
+2025-10-26 20:00:08 [main] INFO  factory.BaseClass - Verifying account deletion success message
+2025-10-26 20:00:08 [main] INFO  factory.BaseClass - Scenario PASSED: Successful account registration and deletion
+2025-10-26 20:00:08 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:00:09 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 20:09:46 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 20:09:48 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 20:09:50 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 20:09:50 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 20:09:50 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
+2025-10-26 20:09:50 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:09:51 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 20:52:28 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 20:52:31 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 20:52:33 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 20:52:34 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 20:52:34 [main] INFO  factory.BaseClass - Navigate to Login Account Page
+2025-10-26 20:52:36 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
+2025-10-26 20:52:36 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:52:36 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 20:53:53 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 20:53:55 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 20:53:57 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 20:53:57 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 20:53:57 [main] INFO  factory.BaseClass - Navigate to Login Account Page
+2025-10-26 20:53:59 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
+2025-10-26 20:53:59 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:54:00 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 20:54:34 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 20:54:35 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 20:54:37 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 20:54:37 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 20:54:37 [main] INFO  factory.BaseClass - Navigate to Login Account Page
+2025-10-26 20:54:40 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
+2025-10-26 20:54:40 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:54:40 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-26 20:57:04 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-26 20:57:05 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-26 20:57:07 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-26 20:57:07 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-26 20:57:07 [main] INFO  factory.BaseClass - Navigate to Login Account Page
+2025-10-26 20:57:11 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
+2025-10-26 20:57:11 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-26 20:57:11 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

@@ -41,6 +41,8 @@ public class RegistrationOrLoginPage extends BasePage {
 	@FindBy(xpath="//div[contains(@class,'shop-menu')]//ul/li//b") WebElement vfName;
 	@FindBy(xpath="//a[normalize-space()='Delete Account']") WebElement deleteBtn;
 	@FindBy(xpath="//b[normalize-space()='Account Deleted!']") WebElement deleteMessage;
+	//Login with Incorrect Credential
+	@FindBy(xpath="//p[normalize-space()='Your email or password is incorrect!']") WebElement wrongCredentials;
   
 	//ActionMethods
 	public void enterName(String Name) {
@@ -124,5 +126,9 @@ public class RegistrationOrLoginPage extends BasePage {
 	
 	public void clickLogin() {
 		loginBtn.click();
+	}
+	//Verifying message for Incorrect Email or Password
+	public boolean vfIncorrectData() {
+		return wrongCredentials.isDisplayed();
 	}
 }

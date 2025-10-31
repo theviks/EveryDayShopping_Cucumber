@@ -9,8 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 					
 					//features= {".//Features/Registration.feature"},
-							features= {".//Features/Login.feature"},
-					//features= {"@target/rerun.txt"},
+					//features= {".//Features/Login.feature"},
+					features= {".//Features/wrongId.feature"},
 					glue="stepDefinitions",
 					plugin= {"pretty", "html:reports/myreport.html", 
 							  "rerun:target/rerun.txt",

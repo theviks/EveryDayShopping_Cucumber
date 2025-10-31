@@ -86,3 +86,25 @@
 2025-10-26 20:57:11 [main] INFO  factory.BaseClass - Scenario PASSED: Correct email and password
 2025-10-26 20:57:11 [main] INFO  factory.BaseClass - Closing browser...
 2025-10-26 20:57:11 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-27 19:00:16 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-27 19:00:20 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-27 19:00:22 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-27 19:00:22 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-27 19:00:22 [main] INFO  factory.BaseClass - Scenario PASSED: Incorrect email or password
+2025-10-27 19:00:22 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-27 19:00:22 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-27 19:06:01 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-27 19:06:03 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-27 19:06:06 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-27 19:06:06 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-27 19:06:06 [main] INFO  factory.BaseClass - Scenario PASSED: Login attempt with incorrect email or password
+2025-10-27 19:06:06 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-27 19:06:06 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-27 19:14:23 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-27 19:14:24 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-27 19:14:28 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-27 19:14:28 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-27 19:14:28 [main] INFO  factory.BaseClass - Navigate to Login Account Page
+2025-10-27 19:14:32 [main] INFO  factory.BaseClass - Scenario PASSED: Login attempt with incorrect email or password
+2025-10-27 19:14:32 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-27 19:14:32 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

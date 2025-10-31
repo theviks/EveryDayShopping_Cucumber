@@ -131,4 +131,5 @@ public class RegistrationOrLoginPage extends BasePage {
 	public boolean vfIncorrectData() {
 		return wrongCredentials.isDisplayed();
 	}
+	
 }

@@ -108,3 +108,59 @@
 2025-10-27 19:14:32 [main] INFO  factory.BaseClass - Scenario PASSED: Login attempt with incorrect email or password
 2025-10-27 19:14:32 [main] INFO  factory.BaseClass - Closing browser...
 2025-10-27 19:14:32 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 20:53:29 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 20:53:32 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 20:53:35 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 20:53:35 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 20:53:35 [main] INFO  factory.BaseClass - Scenario PASSED: Exesting user will logout
+2025-10-30 20:53:35 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 20:53:35 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:07:30 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:07:32 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:07:34 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:07:34 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:07:35 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Exesting user will logout
+2025-10-30 21:07:35 [main] ERROR factory.BaseClass - Scenario FAILED: Exesting user will logout
+2025-10-30 21:07:35 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:07:35 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:08:55 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:08:57 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:08:59 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:08:59 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:08:59 [main] INFO  factory.BaseClass - Navigate to Login Page
+2025-10-30 21:09:11 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Exesting user will logout
+2025-10-30 21:09:11 [main] ERROR factory.BaseClass - Scenario FAILED: Exesting user will logout
+2025-10-30 21:09:11 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:09:11 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:10:04 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:10:06 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:10:07 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:10:07 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:10:07 [main] INFO  factory.BaseClass - Navigate to Login Page
+2025-10-30 21:10:13 [main] INFO  factory.BaseClass - Scenario PASSED: Exesting user will logout
+2025-10-30 21:10:13 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:10:13 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:36:20 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:36:22 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:36:23 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:36:23 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:36:23 [main] INFO  factory.BaseClass - Scenario PASSED: User try register new account with existing Email
+2025-10-30 21:36:23 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:36:24 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:42:49 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:42:50 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:42:53 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:42:53 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:42:53 [main] INFO  factory.BaseClass - User Navigates to SignUp Page
+2025-10-30 21:43:05 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: User try register new account with existing Email
+2025-10-30 21:43:05 [main] ERROR factory.BaseClass - Scenario FAILED: User try register new account with existing Email
+2025-10-30 21:43:05 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:43:06 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-10-30 21:43:29 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-10-30 21:43:31 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-10-30 21:43:34 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-10-30 21:43:34 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-10-30 21:43:34 [main] INFO  factory.BaseClass - User Navigates to SignUp Page
+2025-10-30 21:43:37 [main] INFO  factory.BaseClass - Scenario PASSED: User try register new account with existing Email
+2025-10-30 21:43:37 [main] INFO  factory.BaseClass - Closing browser...
+2025-10-30 21:43:38 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

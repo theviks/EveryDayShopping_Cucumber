@@ -10,7 +10,9 @@ import io.cucumber.junit.CucumberOptions;
 					
 					//features= {".//Features/Registration.feature"},
 					//features= {".//Features/Login.feature"},
-					features= {".//Features/wrongId.feature"},
+					//features= {".//Features/wrongId.feature"},
+					//features= {".//Features/logOut.feature"},
+					features= {".//Features/register-user-with-existing-email.feature"},
 					glue="stepDefinitions",
 					plugin= {"pretty", "html:reports/myreport.html", 
 							  "rerun:target/rerun.txt",

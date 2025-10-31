@@ -12,10 +12,25 @@ public class HomePage extends BasePage {
 	
 	//Elements
 	@FindBy(xpath ="//a[normalize-space()='Signup / Login']") WebElement loginOrRegister;
+	@FindBy(xpath = "//a[normalize-space()='Logout']") WebElement logout;
+	@FindBy(xpath="//p[normalize-space()='Email Address already exist!']") WebElement emailExist;
 	
 	//Action Methods
 	public void clickLoginSignUp() {
 		loginOrRegister.click();
 	}
+	
+	public void clickLogOut() {
+		logout.click();
+	}
 
+	//Verify logOut
+	public boolean vfLogout() {
+		return loginOrRegister.isDisplayed();
+	}
+	
+	//Verify Existing user
+	public boolean vfExistingUser() {
+		return emailExist.isDisplayed();
+	}
 }

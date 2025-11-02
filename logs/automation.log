@@ -164,3 +164,40 @@
 2025-10-30 21:43:37 [main] INFO  factory.BaseClass - Scenario PASSED: User try register new account with existing Email
 2025-10-30 21:43:37 [main] INFO  factory.BaseClass - Closing browser...
 2025-10-30 21:43:38 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 11:47:38 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 11:47:41 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 11:47:43 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 11:47:43 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 11:47:43 [main] INFO  factory.BaseClass - Scenario PASSED: User fills the contact us form
+2025-11-02 11:47:43 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 11:47:43 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 13:32:00 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 13:32:04 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 13:32:06 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 13:32:06 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 13:32:09 [main] INFO  factory.BaseClass - Scenario PASSED: User fills the contact us form
+2025-11-02 13:32:09 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 13:32:09 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 13:32:52 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 13:32:54 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 13:32:55 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 13:32:55 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 13:32:58 [main] INFO  factory.BaseClass - Scenario PASSED: User fills the contact us form
+2025-11-02 13:32:58 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 13:32:59 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 13:33:28 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 13:33:30 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 13:33:33 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 13:33:33 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 13:33:39 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: User fills the contact us form
+2025-11-02 13:33:39 [main] ERROR factory.BaseClass - Scenario FAILED: User fills the contact us form
+2025-11-02 13:33:39 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 13:33:39 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 13:34:14 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 13:34:16 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 13:34:17 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 13:34:18 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 13:34:21 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: User fills the contact us form
+2025-11-02 13:34:21 [main] ERROR factory.BaseClass - Scenario FAILED: User fills the contact us form
+2025-11-02 13:34:21 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 13:34:21 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

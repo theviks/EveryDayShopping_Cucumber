@@ -15,7 +15,8 @@ public class HomePage extends BasePage {
 	@FindBy(xpath = "//a[normalize-space()='Logout']") WebElement logout;
 	@FindBy(xpath="//p[normalize-space()='Email Address already exist!']") WebElement emailExist;
 	@FindBy(xpath="//a[normalize-space()='Contact us']") WebElement contactUs;
-	
+	@FindBy(xpath="//a[@href='/products']") WebElement products;
+ 	
 	//Action Methods
 	public void clickLoginSignUp() {
 		loginOrRegister.click();
@@ -38,5 +39,9 @@ public class HomePage extends BasePage {
 	//contactUs
 	public void contactUs() {
 		contactUs.click();
+	}
+	//products Page
+	public void productsPage() {
+		products.click();
 	}
 }

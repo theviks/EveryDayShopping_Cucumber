@@ -201,3 +201,41 @@
 2025-11-02 13:34:21 [main] ERROR factory.BaseClass - Scenario FAILED: User fills the contact us form
 2025-11-02 13:34:21 [main] INFO  factory.BaseClass - Closing browser...
 2025-11-02 13:34:21 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 14:50:48 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 14:50:51 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 14:50:56 [main] ERROR factory.BaseClass - Scenario FAILED: Verifying Product Details on the Product Details Page
+2025-11-02 14:50:56 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 14:50:56 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 15:25:53 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 15:25:55 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 15:25:57 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 15:25:57 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 15:25:57 [main] INFO  factory.BaseClass - User Navigates to Products Page
+2025-11-02 15:26:02 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Verifying Product Details on the Product Details Page
+2025-11-02 15:26:02 [main] ERROR factory.BaseClass - Scenario FAILED: Verifying Product Details on the Product Details Page
+2025-11-02 15:26:02 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 15:26:02 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 15:30:11 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 15:30:13 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 15:30:15 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 15:30:15 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 15:30:15 [main] INFO  factory.BaseClass - User Navigates to Products Page
+2025-11-02 15:30:18 [main] INFO  factory.BaseClass - Scenario PASSED: Verifying Product Details on the Product Details Page
+2025-11-02 15:30:18 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 15:30:18 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 15:32:59 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 15:33:01 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 15:33:02 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 15:33:02 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 15:33:02 [main] INFO  factory.BaseClass - User Navigates to Products Page
+2025-11-02 15:33:07 [main] INFO  factory.BaseClass - Scenario PASSED: Verifying Product Details on the Product Details Page
+2025-11-02 15:33:07 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 15:33:07 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-02 15:34:43 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-02 15:34:45 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-02 15:34:48 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-02 15:34:48 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-02 15:34:48 [main] INFO  factory.BaseClass - User Navigates to Products Page
+2025-11-02 15:34:52 [main] INFO  factory.BaseClass - Scenario PASSED: Verifying Product Details on the Product Details Page
+2025-11-02 15:34:52 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-02 15:34:52 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

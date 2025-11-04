@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -16,6 +17,9 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//p[normalize-space()='Email Address already exist!']") WebElement emailExist;
 	@FindBy(xpath="//a[normalize-space()='Contact us']") WebElement contactUs;
 	@FindBy(xpath="//a[@href='/products']") WebElement products;
+	@FindBy(xpath="//input[@id='susbscribe_email']") WebElement subscriptionInput;
+	@FindBy(xpath="//button[@id='subscribe']") WebElement subscriptionBtn;
+	@FindBy(xpath="//div[@class='alert-success alert']") WebElement vfSubscription;
  	
 	//Action Methods
 	public void clickLoginSignUp() {
@@ -44,4 +48,19 @@ public class HomePage extends BasePage {
 	public void productsPage() {
 		products.click();
 	}
+	//Subscription
+	public void subscription(String mail) {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("arguments[0].scrollIntoView(true);", subscriptionInput);
+		subscriptionInput.sendKeys(mail);
+	}
+	
+	public void clickSubscription() {
+		subscriptionBtn.click();
+	}
+	
+	public boolean verifySubscription() {
+		return vfSubscription.isDisplayed();
+	}
+	
 }

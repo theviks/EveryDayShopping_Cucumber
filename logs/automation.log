@@ -281,3 +281,18 @@
 2025-11-03 18:19:08 [main] INFO  factory.BaseClass - Scenario PASSED: Search Product
 2025-11-03 18:19:08 [main] INFO  factory.BaseClass - Closing browser...
 2025-11-03 18:19:08 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-04 08:46:22 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-04 08:46:26 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-04 08:46:27 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-04 08:46:28 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-04 08:46:28 [main] INFO  factory.BaseClass - Scenario PASSED: User Enters Email for subscription
+2025-11-04 08:46:28 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-04 08:46:28 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-04 09:12:00 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-04 09:12:02 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-04 09:12:05 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-04 09:12:05 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-04 09:12:05 [main] INFO  factory.BaseClass - User Navigates to the Subscription Input
+2025-11-04 09:12:06 [main] INFO  factory.BaseClass - Scenario PASSED: User Enters Email for subscription
+2025-11-04 09:12:06 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-04 09:12:06 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

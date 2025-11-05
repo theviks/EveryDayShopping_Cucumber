@@ -20,6 +20,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//input[@id='susbscribe_email']") WebElement subscriptionInput;
 	@FindBy(xpath="//button[@id='subscribe']") WebElement subscriptionBtn;
 	@FindBy(xpath="//div[@class='alert-success alert']") WebElement vfSubscription;
+	@FindBy(xpath="//a[normalize-space()='Cart']") WebElement cartPage;
  	
 	//Action Methods
 	public void clickLoginSignUp() {
@@ -61,6 +62,10 @@ public class HomePage extends BasePage {
 	
 	public boolean verifySubscription() {
 		return vfSubscription.isDisplayed();
+	}
+	
+	public void cartPage() {
+		cartPage.click();
 	}
 	
 }

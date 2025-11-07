@@ -1,6 +1,7 @@
 package stepDefinitions;
 
 import org.apache.logging.log4j.Logger;
+import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
 import factory.BaseClass;
@@ -19,21 +20,27 @@ public class SubscriptionCartPage {
 	
 	@Given("User Navigates to CartPage Subscription Input")
 	public void user_navigates_to_cart_page_subscription_input() {
+	    logger.info("User Navigates to CartPage");
+		driver = BaseClass.getDriver();
+	    hp = new HomePage(driver);
 	    
+	    hp.cartPage();
+	    cp = new CartPage(driver);
+		
 	}
 
 	@When("User enters email for Subscription")
 	public void user_enters_email_for_subscription() {
-	    
+	    cp.subscription("sdsdsf@sfgfgdg.com");
 	}
 
 	@When("User Clicks Arrow button to Subscribe")
 	public void user_clicks_arrow_button_to_subscribe() {
-	    
+	    cp.subscriptionBtn();
 	}
 
 	@Then("Verify Subscription successful Message")
 	public void verify_subscription_successful_message() {
-	    
+	    Assert.assertEquals(true, cp.verifySubscription());
 	}
 }

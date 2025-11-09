@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,6 +8,8 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class ProductsPage extends BasePage {
 
@@ -21,6 +24,10 @@ public class ProductsPage extends BasePage {
 	@FindBy(xpath="//input[@id='search_product']") WebElement searchBar;
 	@FindBy(xpath="//button[@id='submit_search']") WebElement searchButton;
 	@FindBy(xpath="//div[@class='col-sm-4']//div[@class='productinfo text-center']/p") List<WebElement> vfSearchResult;
+	
+	@FindBy(xpath="(//div[@class='productinfo text-center'])[position() <= 2]//a[contains(.,'Add to cart')]") List<WebElement> addToCart;
+	@FindBy(xpath="//button[normalize-space()='Continue Shopping']") WebElement continueShopping;
+	
 	
 	
 	//Action Methods
@@ -63,4 +70,19 @@ public class ProductsPage extends BasePage {
 		return product.stream().allMatch(p->p.toLowerCase().contains(productName.toLowerCase()));
 		
  	}
+	
+	public void addProductToCart() {
+		
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		for(int i=0;i<addToCart.size();i++) {
+			((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",addToCart.get(i));
+			
+			wait.until(ExpectedConditions.elementToBeClickable(addToCart.get(i))).click();
+			if(continueShopping.isEnabled()) {
+				continueShopping.click();
+			}
+		}
+
+	}
+	
 }

@@ -544,3 +544,36 @@
 2025-11-09 10:32:36 [main] INFO  factory.BaseClass - Scenario PASSED: User adds Products to Cart
 2025-11-09 10:32:36 [main] INFO  factory.BaseClass - Closing browser...
 2025-11-09 10:32:36 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-10 08:11:39 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-10 08:11:43 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-10 08:11:44 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-10 08:11:44 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-10 08:11:44 [main] INFO  factory.BaseClass - Scenario PASSED: User adds product to cart and verifies cart total
+2025-11-10 08:11:44 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-10 08:11:45 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-10 08:51:33 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-10 08:51:35 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-10 08:51:37 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-10 08:51:37 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-10 08:51:37 [main] INFO  factory.BaseClass - User is on HomePage and view Product
+2025-11-10 08:51:42 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: User adds product to cart and verifies cart total
+2025-11-10 08:51:42 [main] ERROR factory.BaseClass - Scenario FAILED: User adds product to cart and verifies cart total
+2025-11-10 08:51:42 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-10 08:51:43 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-10 08:54:29 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-10 08:54:31 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-10 08:54:33 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-10 08:54:33 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-10 08:54:33 [main] INFO  factory.BaseClass - User is on HomePage and view Product
+2025-11-10 08:54:38 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: User adds product to cart and verifies cart total
+2025-11-10 08:54:38 [main] ERROR factory.BaseClass - Scenario FAILED: User adds product to cart and verifies cart total
+2025-11-10 08:54:38 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-10 08:54:38 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-10 09:00:26 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-10 09:00:28 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-10 09:00:31 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-10 09:00:31 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-10 09:00:32 [main] INFO  factory.BaseClass - User is on HomePage and view Product
+2025-11-10 09:00:36 [main] INFO  factory.BaseClass - Scenario PASSED: User adds product to cart and verifies cart total
+2025-11-10 09:00:36 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-10 09:00:36 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

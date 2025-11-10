@@ -27,7 +27,9 @@ public class ProductsPage extends BasePage {
 	
 	@FindBy(xpath="(//div[@class='productinfo text-center'])[position() <= 2]//a[contains(.,'Add to cart')]") List<WebElement> addToCart;
 	@FindBy(xpath="//button[normalize-space()='Continue Shopping']") WebElement continueShopping;
-	
+	@FindBy(xpath="//input[@id='quantity']") WebElement inputQuantity;
+	@FindBy(xpath="//button[normalize-space()='Add to cart']") WebElement addToCartBtn;
+	@FindBy(xpath="//u[normalize-space()='View Cart']") WebElement viewCart;
 	
 	
 	//Action Methods
@@ -83,6 +85,18 @@ public class ProductsPage extends BasePage {
 			}
 		}
 
+	}
+	
+	public void productQuantity(String qty) {
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);",inputQuantity);
+		inputQuantity.clear();
+		inputQuantity.sendKeys(qty);
+	}
+	public void clickAddToCart() {
+		addToCartBtn.click();
+	}
+	public void viewCartPage() {
+		viewCart.click();
 	}
 	
 }

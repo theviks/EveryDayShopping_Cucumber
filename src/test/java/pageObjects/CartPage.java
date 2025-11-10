@@ -20,6 +20,7 @@ public class CartPage extends BasePage {
 	@FindBy(xpath="//td[@class='cart_price']//p") List<WebElement> prices;
 	@FindBy(xpath="//td[@class='cart_quantity']/button") List<WebElement> quantities;
 	@FindBy(xpath="//td[@class='cart_total']/p") List<WebElement> cartTotals;
+	@FindBy(xpath="//td[@class='cart_price']") List<WebElement> productPrice;
 	
 	
 	//Action Methods
@@ -52,6 +53,29 @@ public class CartPage extends BasePage {
 	        }
 	    }
 	    return false;
+	}
+	
+	public boolean verifyProductTotal() {
+		int quantity = 0;
+		int total = 0;
+		int cartTotal=0;
+		boolean flag = false;
+		for(WebElement qty : quantities) {
+			quantity = Integer.parseInt(qty.getText());
+		}
+		for(WebElement pp :productPrice) {
+			total = Integer.parseInt(pp.getText().replace("Rs. ", ""));
+		}
+		for(WebElement ct : cartTotals) {
+			cartTotal = Integer.parseInt(ct.getText().replace("Rs. ", ""));
+		}
+		
+		if(quantity*total == cartTotal) {
+			flag = true;
+		}
+		
+		return flag;
+		
 	}
 
 	

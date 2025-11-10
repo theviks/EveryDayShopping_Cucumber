@@ -1,9 +1,13 @@
 package pageObjects;
 
+import java.time.Duration;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HomePage extends BasePage {
 
@@ -21,6 +25,7 @@ public class HomePage extends BasePage {
 	@FindBy(xpath="//button[@id='subscribe']") WebElement subscriptionBtn;
 	@FindBy(xpath="//div[@class='alert-success alert']") WebElement vfSubscription;
 	@FindBy(xpath="//a[normalize-space()='Cart']") WebElement cartPage;
+	@FindBy(xpath="(//div[@class='choose'])[position()=1]//a[contains(.,'View Product')]") WebElement productHome;
  	
 	//Action Methods
 	public void clickLoginSignUp() {
@@ -66,6 +71,12 @@ public class HomePage extends BasePage {
 	
 	public void cartPage() {
 		cartPage.click();
+	}
+	
+	public void productHome() {
+		((JavascriptExecutor)driver).executeScript("arguments[0].scrollIntoView(true);", productHome);
+		WebDriverWait myWait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		myWait.until(ExpectedConditions.elementToBeClickable(productHome)).click();
 	}
 	
 }

@@ -12,7 +12,7 @@ import pageObjects.CartPage;
 import pageObjects.HomePage;
 import pageObjects.ProductsPage;
 
-public class ProductQuantityCart {
+public class AddProductAndVerifyQuantity {
 
 	WebDriver driver;
 	Logger logger = BaseClass.getLogger();

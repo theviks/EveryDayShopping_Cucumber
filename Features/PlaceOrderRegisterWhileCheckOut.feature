@@ -4,16 +4,14 @@ Feature: Place order with registration and delete account
   So that I can buy products and then delete my account
 
   Scenario: Register during checkout and place order successfully
-    Given I launch the browser
-    And I navigate to "http://automationexercise.com"
-    Then I should see the home page displayed successfully
+    Given Navigate to Home page
 
     When I add products to the cart
     And I click on the "Cart" button
     Then I should see the cart page
 
-    When I click on the "Proceed To Checkout" button
-    And I click on the "Register / Login" button
+    When I click on the Proceed To Checkout button
+    And I click on the Register / Login button
     And I fill all required details in Signup and create an account
     Then I should see "ACCOUNT CREATED!" message
     And I click on the "Continue" button

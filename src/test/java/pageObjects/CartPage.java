@@ -13,6 +13,7 @@ public class CartPage extends BasePage {
 	}
 	
 	//Elements
+	@FindBy(xpath="//li[@class='active']") WebElement cartVf;
 	@FindBy(xpath="//input[@id='susbscribe_email']") WebElement subscription;
 	@FindBy(xpath="//button[@id='subscribe']") WebElement subscriptionButton;
 	@FindBy(xpath="//div[@class='alert-success alert']") WebElement vfSubscription;
@@ -21,9 +22,15 @@ public class CartPage extends BasePage {
 	@FindBy(xpath="//td[@class='cart_quantity']/button") List<WebElement> quantities;
 	@FindBy(xpath="//td[@class='cart_total']/p") List<WebElement> cartTotals;
 	@FindBy(xpath="//td[@class='cart_price']") List<WebElement> productPrice;
+	@FindBy(xpath="//a[normalize-space()='Proceed To Checkout']") WebElement checkOutBtn;
+	@FindBy(xpath="//u[normalize-space()='Register / Login']") WebElement registerOrLogin;
 	
 	
 	//Action Methods
+	
+	public boolean verifyCartPage() {
+		return cartVf.isDisplayed();
+	}
 	public void subscription(String email) {
 		subscription.sendKeys(email);
 	}
@@ -78,5 +85,12 @@ public class CartPage extends BasePage {
 		
 	}
 
+	public void clikCheckOut() {
+		checkOutBtn.click();
+	}
+	
+	public void clickRegisterLogin() {
+		registerOrLogin.click();
+	}
 	
 }

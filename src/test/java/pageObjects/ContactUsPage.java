@@ -52,5 +52,6 @@ public class ContactUsPage extends BasePage {
 	public boolean verifySubmition() {
 		return vfSubmition.isDisplayed();
 	}
+	
 }
 

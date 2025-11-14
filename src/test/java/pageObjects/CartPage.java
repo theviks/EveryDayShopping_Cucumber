@@ -24,6 +24,7 @@ public class CartPage extends BasePage {
 	@FindBy(xpath="//td[@class='cart_price']") List<WebElement> productPrice;
 	@FindBy(xpath="//a[normalize-space()='Proceed To Checkout']") WebElement checkOutBtn;
 	@FindBy(xpath="//u[normalize-space()='Register / Login']") WebElement registerOrLogin;
+	@FindBy(xpath="//section[@id='cart_items']//div[@class='row']//ul[contains(@id,'address_delivery')]") WebElement verifyDeliveryAddress;
 	
 	
 	//Action Methods
@@ -93,4 +94,7 @@ public class CartPage extends BasePage {
 		registerOrLogin.click();
 	}
 	
+	public boolean verifyAddress() {
+		return verifyDeliveryAddress.isDisplayed();
+	}
 }

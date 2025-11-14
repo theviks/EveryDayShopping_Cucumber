@@ -584,3 +584,10 @@
 2025-11-12 19:42:25 [main] INFO  factory.BaseClass - Scenario PASSED: Register during checkout and place order successfully
 2025-11-12 19:42:25 [main] INFO  factory.BaseClass - Closing browser...
 2025-11-12 19:42:25 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-14 08:30:03 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-14 08:30:06 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-14 08:30:08 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-14 08:30:08 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-14 08:30:08 [main] INFO  factory.BaseClass - Scenario PASSED: Register during checkout and place order successfully
+2025-11-14 08:30:08 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-14 08:30:08 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====

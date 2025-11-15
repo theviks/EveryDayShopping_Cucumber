@@ -9,12 +9,11 @@ Feature: Place order with registration and delete account
 
     When I add products to the cart
     And I click on the "Cart" button
-    Then I should see the cart page
 
     When I click on the "Proceed To Checkout" button
-    And I click on the "Register or Login" button
+    And I click on the "Register / Login" button
     And I fill all required details in Signup and create an account
-    Then I should see "ACCOUNT CREATED!" message
+    Then I should see the success message "ACCOUNT CREATED!"
     And I click on the "Continue" button
     And I should see "Logged in as username" at the top
 
@@ -25,15 +24,15 @@ Feature: Place order with registration and delete account
     And I click on the "Place Order" button
     And I enter payment details:
       | field            | value            |
-      | Name on Card     | Test User        |
+      | Name on Card     | bawakoof         |
       | Card Number      | 4111111111111111 |
       | CVC              | 123              |
       | Expiration Month | 12               |
       | Expiration Year  | 2028             |
 
     And I click on the "Pay and Confirm Order" button
-    Then I should see the success message "Your order has been placed successfully!"
+    Then I should see the success message "Congratulations! Your order has been confirmed!"
 
     When I click on the "Delete Account" button
-    Then I should see "ACCOUNT DELETED!" message
+    Then I should see the success message "ACCOUNT DELETED!"
     And I click on the "Continue" button

@@ -11,7 +11,7 @@ Feature: Place order with registration and delete account
     And I click on the "Cart" button
 
     When I click on the "Proceed To Checkout" button
-    And I click on the "Register / Login" button
+    When I click on the Register or Login button
     And I fill all required details in Signup and create an account
     Then I should see the success message "ACCOUNT CREATED!"
     And I click on the "Continue" button

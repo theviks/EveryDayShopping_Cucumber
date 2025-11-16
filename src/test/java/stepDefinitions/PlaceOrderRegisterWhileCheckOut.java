@@ -87,11 +87,16 @@ public class PlaceOrderRegisterWhileCheckOut {
             }
         }
     }
+    
+    @When("I click on the Register or Login button")
+    public void click_on_register_or_login() {
+    	cp.clickRegisterLogin();
+    }
 
     @When("I fill all required details in Signup and create an account")
     public void i_fill_all_required_details_in_signup_and_create_an_account() {
     	rp.enterName("Bhosale");
-    	rp.enterEmail("Bhosale@gmail.com");
+    	rp.enterEmail("Bhosae@gmail.com");
     	rp.clickSignUp();
     	rp.selectGender();
     	rp.enterPassword("1234567890");
@@ -101,11 +106,6 @@ public class PlaceOrderRegisterWhileCheckOut {
     	rp.enterAddress("34 guj", "gujarat", "Surat", "GJ05GJ");
     	rp.enterPhoneNo("1478523698");
     	rp.clickRegister();
-    }
-
-    @Then("I should see {string} message")
-    public void i_should_see_message() {
-        Assert.assertEquals(true, rp.verifyRegistration());
     }
 
     @Then("I should see {string} at the top")

@@ -671,3 +671,34 @@
 2025-11-14 22:02:14 [main] ERROR factory.BaseClass - Scenario FAILED: Register during checkout and place order successfully
 2025-11-14 22:02:14 [main] INFO  factory.BaseClass - Closing browser...
 2025-11-14 22:02:14 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-15 20:11:11 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-15 20:11:14 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-15 20:11:16 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-15 20:11:16 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-15 20:11:30 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Register during checkout and place order successfully
+2025-11-15 20:11:30 [main] ERROR factory.BaseClass - Scenario FAILED: Register during checkout and place order successfully
+2025-11-15 20:11:30 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-15 20:11:31 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-15 20:42:09 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-15 20:42:12 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-15 20:42:14 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-15 20:42:14 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-15 20:42:34 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Register during checkout and place order successfully
+2025-11-15 20:42:34 [main] ERROR factory.BaseClass - Scenario FAILED: Register during checkout and place order successfully
+2025-11-15 20:42:34 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-15 20:42:34 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-15 20:44:51 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-15 20:44:53 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-15 20:44:55 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-15 20:44:55 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-15 20:45:12 [main] ERROR factory.BaseClass - Scenario FAILED: Register during checkout and place order successfully
+2025-11-15 20:45:12 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-15 20:45:12 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
+2025-11-15 20:45:51 [main] INFO  factory.BaseClass - ===== Test Execution Started =====
+2025-11-15 20:45:52 [main] INFO  factory.BaseClass - Browser initialized successfully.
+2025-11-15 20:45:54 [main] INFO  factory.BaseClass - Navigated to URL: https://automationexercise.com/
+2025-11-15 20:45:54 [main] INFO  factory.BaseClass - Browser window maximized.
+2025-11-15 20:46:13 [main] ERROR factory.BaseClass - Screenshot captured for failed step in scenario: Register during checkout and place order successfully
+2025-11-15 20:46:14 [main] ERROR factory.BaseClass - Scenario FAILED: Register during checkout and place order successfully
+2025-11-15 20:46:14 [main] INFO  factory.BaseClass - Closing browser...
+2025-11-15 20:46:14 [main] INFO  factory.BaseClass - ===== Test Execution Finished =====
